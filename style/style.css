@@ -47,8 +47,8 @@ body {
   margin-bottom: 32px;
 }
 
-.primary-bg{
-  background-color: #C6E4D6;
+.primary-bg {
+  background-color: #c6e4d6;
 }
 
 /* nav styles */
@@ -323,9 +323,32 @@ select {
   justify-content: center;
 }
 
-input {
+.donation-input {
   text-align: center;
   padding: 12px 422px;
   border: none;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
+}
+
+/* subscribe section */
+
+.subscribe-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
+  border-radius: 24px;
+  padding: 80px 265px;
+}
+
+.email-field {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.email-input {
+  text-align: left;
+  padding: 18px 405px 18px 40px;
+  border: none;
+  border-radius: 8px 0px 0px 8px;
 }
