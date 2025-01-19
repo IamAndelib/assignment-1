@@ -47,6 +47,10 @@ body {
   margin-bottom: 32px;
 }
 
+.primary-bg{
+  background-color: #C6E4D6;
+}
+
 /* nav styles */
 
 nav {
@@ -291,4 +295,37 @@ select {
 .date-time {
   display: flex;
   gap: 12px;
+}
+
+/* donation section */
+
+.donation-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  margin-bottom: 80px;
+  padding: 0px 105px;
+}
+
+.donation-card {
+  background-color: white;
+  padding: 40px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.donation-card-container {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+input {
+  text-align: center;
+  padding: 12px 422px;
+  border: none;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
 }
