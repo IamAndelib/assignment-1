@@ -177,3 +177,35 @@ nav {
 .yellow-button {
   background-color: #ffc239;
 }
+
+/* quote section */
+
+.quote-container {
+  background-color: white;
+  padding: 48px 24px;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  margin-bottom: 80px;
+  background-image: url(quote-bg.png);
+  background-repeat: no-repeat;
+  background-position-x: 24px;
+  background-position-y: 24px;
+}
+
+.quote {
+  font-size: 16;
+  color: rgba(14, 14, 14, 0.8);
+  margin-bottom: 12px;
+}
+
+.author-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgba(14, 14, 14, 0.8);
+}
+
+.author-title {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.6);
+}
