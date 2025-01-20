@@ -35,6 +35,20 @@ main {
   border-radius: 8px;
   border: none;
   width: fit-content;
+  cursor: pointer;
+}
+
+.primary-button:hover {
+  background-color: white;
+  color: #006a50;
+  border: 1px solid #006a50;
+}
+
+.primary-button:active {
+  background-color: white;
+  color: #006a50;
+  box-shadow: 2px 3px 5px #3b3b3b;
+  transform: translateY(-2px);
 }
 
 .section-title {
@@ -73,11 +87,19 @@ nav {
   font-weight: 600;
   font-size: 18px;
   background-color: transparent;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.sign-in-button:hover {
+  background-color: #006a50;
+  color: white;
 }
 
 .home-text {
   font-size: 32px;
   font-weight: 800;
+  cursor: pointer;
 }
 
 /* banner styles */
@@ -172,18 +194,37 @@ nav {
   border-radius: 8px;
   border: none;
   margin-top: 24px;
+  cursor: pointer;
 }
 
 .blue-button {
   background-color: #5490f5;
 }
 
+.blue-button:hover {
+  background-color: white;
+  color: #5490f5;
+  border: 1px solid #5490f5;
+}
+
 .green-button {
   background-color: #09a15c;
 }
 
+.green-button:hover {
+  background-color: white;
+  color: #09a15c;
+  border: 1px solid #09a15c;
+}
+
 .yellow-button {
   background-color: #ffc239;
+}
+
+.yellow-button:hover {
+  background-color: white;
+  color: #ffc239;
+  border: 1px solid #ffc239;
 }
 
 /* quote section */
@@ -320,6 +361,12 @@ select {
   font-weight: 700;
 }
 
+.donation-card:hover {
+  background-color: #006a50;
+  color: white;
+  border: none;
+}
+
 .donation-card-container {
   display: flex;
   gap: 24px;
@@ -370,6 +417,7 @@ footer {
 .socials {
   display: flex;
   gap: 23px;
+  cursor: pointer;
 }
 
 hr {
